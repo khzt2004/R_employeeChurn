@@ -1,3 +1,4 @@
+# https://www.analyticsinhr.com/blog/tutorial-people-analytics-r-employee-churn/
 #Ensure all needed libraries are installed
 list.of.packages <- c("plyr", "dplyr","rattle","ROCR","caret","randomForest","kernlab","magrittr","rpart","ggplot2")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[, "Package"])]
